@@ -1,0 +1,11 @@
+{
+	"name": "Wikipedia Searcher",
+	"description": "Quickly search for highlighted text on Wikipedia.",
+	"version": "1.0",
+	"manifest_version": 3,
+	
+	"permissions": ["contextMenus"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
